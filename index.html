@@ -4,10 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LOBI – Moving Africa, One Ride at a Time</title>
+  <link rel="icon" type="image/jpeg" href="assets/lobi_logo.jpeg" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
@@ -37,7 +39,9 @@
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
     <div class="hero-content">
-      <div class="hero-badge">Now operating in Ghana 🇬🇭</div>
+      <div class="hero-badge">
+        <i class="fa-solid fa-location-dot"></i> Now operating in Ghana
+      </div>
       <h1 class="hero-title">
         Moving Africa,<br />
         <span class="highlight">One Ride</span> at a Time.
@@ -74,8 +78,12 @@
           alt="Woman booking a Lobi ride on her phone in Accra, Ghana"
           class="hero-img"
         />
-        <div class="floating-badge badge-1">🛡️ Verified Drivers</div>
-        <div class="floating-badge badge-2">📍 Real-Time Tracking</div>
+        <div class="floating-badge badge-1">
+          <i class="fa-solid fa-shield-halved"></i> Verified Drivers
+        </div>
+        <div class="floating-badge badge-2">
+          <i class="fa-solid fa-location-dot"></i> Real-Time Tracking
+        </div>
       </div>
     </div>
   </section>
@@ -106,40 +114,83 @@
       </div>
       <div class="services-grid">
         <div class="service-card featured">
-          <div class="service-icon">🚗</div>
+          <div class="service-icon"><i class="fa-solid fa-car"></i></div>
           <h3>LOBI Rides</h3>
           <p>Request a ride in seconds. Affordable, safe, and available 24/7 across the city.</p>
-          <a href="#download" class="service-link">Book a ride →</a>
+          <a href="#download" class="service-link">Book a ride <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="service-card">
-          <div class="service-icon">💼</div>
+          <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
           <h3>LOBI Business</h3>
           <p>Streamlined corporate travel management with centralized billing and reporting.</p>
-          <a href="#" class="service-link">Learn more →</a>
+          <a href="#" class="service-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🛺</div>
+          <div class="service-icon"><i class="fa-solid fa-motorcycle"></i></div>
           <h3>TukTuk & Okada</h3>
           <p>Navigate tight streets with our local transport options — fast and affordable.</p>
-          <a href="#download" class="service-link">Book now →</a>
+          <a href="#download" class="service-link">Book now <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="service-card">
-          <div class="service-icon">✈️</div>
+          <div class="service-icon"><i class="fa-solid fa-plane-departure"></i></div>
           <h3>Airport Transfers</h3>
           <p>Schedule rides up to 7 days in advance. Never miss a flight again.</p>
-          <a href="#download" class="service-link">Schedule ride →</a>
+          <a href="#download" class="service-link">Schedule ride <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🏢</div>
+          <div class="service-icon"><i class="fa-solid fa-road"></i></div>
           <h3>LOBI Intercity</h3>
           <p>Safe, comfortable rides between major cities across Ghana.</p>
-          <a href="#" class="service-link">Coming soon →</a>
+          <a href="#" class="service-link">Coming soon <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="service-card">
-          <div class="service-icon">📦</div>
+          <div class="service-icon"><i class="fa-solid fa-box"></i></div>
           <h3>LOBI Delivery</h3>
           <p>Send parcels and packages across the city — fast, tracked, reliable.</p>
-          <a href="#" class="service-link">Coming soon →</a>
+          <a href="#" class="service-link">Coming soon <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Fleet showcase -->
+      <div class="fleet-banner">
+        <div class="fleet-img-wrap">
+          <img
+            src="assets/lobi ride vehicles.png"
+            alt="LOBI Ride-Hailing Fleet — car, tuk-tuk and bicycle"
+            class="fleet-img"
+          />
+        </div>
+        <div class="fleet-text">
+          <span class="section-tag">Our Fleet</span>
+          <h2>A Ride for Every Journey</h2>
+          <p>
+            Whether you need a quick trip across town, a comfortable airport transfer,
+            or a nimble tuk-tuk through busy streets — LOBI has the right vehicle for you.
+          </p>
+          <ul class="fleet-list">
+            <li>
+              <span class="fleet-list-icon"><i class="fa-solid fa-car"></i></span>
+              <div>
+                <strong>LOBI Ride</strong>
+                <span>Comfortable sedans for everyday trips</span>
+              </div>
+            </li>
+            <li>
+              <span class="fleet-list-icon"><i class="fa-solid fa-motorcycle"></i></span>
+              <div>
+                <strong>TukTuk</strong>
+                <span>Beat traffic on narrow city streets</span>
+              </div>
+            </li>
+            <li>
+              <span class="fleet-list-icon"><i class="fa-solid fa-bicycle"></i></span>
+              <div>
+                <strong>E-Bike</strong>
+                <span>Eco-friendly rides for short distances</span>
+              </div>
+            </li>
+          </ul>
+          <a href="#download" class="btn btn-blue">Book a Ride</a>
         </div>
       </div>
     </div>
@@ -200,35 +251,35 @@
       </div>
       <div class="earn-grid">
         <div class="earn-card">
-          <div class="earn-icon">🚘</div>
+          <div class="earn-icon"><i class="fa-solid fa-car-side"></i></div>
           <h3>Become a Driver</h3>
           <p>Set your own hours. Earn top income. Access 50,000+ riders across Ghana.</p>
           <ul class="earn-perks">
-            <li>✓ Competitive earnings</li>
-            <li>✓ Weekly payouts</li>
-            <li>✓ 24/7 driver support</li>
+            <li><i class="fa-solid fa-check"></i> Competitive earnings</li>
+            <li><i class="fa-solid fa-check"></i> Weekly payouts</li>
+            <li><i class="fa-solid fa-check"></i> 24/7 driver support</li>
           </ul>
           <a href="#" class="btn btn-primary">Start Driving</a>
         </div>
         <div class="earn-card">
-          <div class="earn-icon">🚐</div>
+          <div class="earn-icon"><i class="fa-solid fa-van-shuttle"></i></div>
           <h3>Fleet Owner</h3>
           <p>Have multiple vehicles? Register your fleet and manage earnings from one dashboard.</p>
           <ul class="earn-perks">
-            <li>✓ Fleet dashboard</li>
-            <li>✓ Real-time analytics</li>
-            <li>✓ Dedicated fleet manager</li>
+            <li><i class="fa-solid fa-check"></i> Fleet dashboard</li>
+            <li><i class="fa-solid fa-check"></i> Real-time analytics</li>
+            <li><i class="fa-solid fa-check"></i> Dedicated fleet manager</li>
           </ul>
           <a href="#" class="btn btn-outline-dark">Register Fleet</a>
         </div>
         <div class="earn-card">
-          <div class="earn-icon">📦</div>
+          <div class="earn-icon"><i class="fa-solid fa-box-open"></i></div>
           <h3>Courier Partner</h3>
           <p>Deliver packages on your schedule. Earn extra income using any vehicle.</p>
           <ul class="earn-perks">
-            <li>✓ Flexible scheduling</li>
-            <li>✓ Instant cash-out</li>
-            <li>✓ Insurance coverage</li>
+            <li><i class="fa-solid fa-check"></i> Flexible scheduling</li>
+            <li><i class="fa-solid fa-check"></i> Instant cash-out</li>
+            <li><i class="fa-solid fa-check"></i> Insurance coverage</li>
           </ul>
           <a href="#" class="btn btn-outline-dark">Join as Courier</a>
         </div>
@@ -249,28 +300,28 @@
           </p>
           <div class="safety-features">
             <div class="safety-feature">
-              <div class="safety-feat-icon">🛡️</div>
+              <div class="safety-feat-icon"><i class="fa-solid fa-shield-halved"></i></div>
               <div>
                 <h4>Driver Verification</h4>
                 <p>Background checks, license verification, and vehicle inspection for every driver.</p>
               </div>
             </div>
             <div class="safety-feature">
-              <div class="safety-feat-icon">📍</div>
+              <div class="safety-feat-icon"><i class="fa-solid fa-location-dot"></i></div>
               <div>
                 <h4>Real-Time Tracking</h4>
                 <p>Share your trip with loved ones. Track every ride live on the map.</p>
               </div>
             </div>
             <div class="safety-feature">
-              <div class="safety-feat-icon">🆘</div>
+              <div class="safety-feat-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
               <div>
                 <h4>Emergency SOS</h4>
                 <p>One-tap emergency button connects you to our safety team and local authorities.</p>
               </div>
             </div>
             <div class="safety-feature">
-              <div class="safety-feat-icon">⭐</div>
+              <div class="safety-feat-icon"><i class="fa-solid fa-star"></i></div>
               <div>
                 <h4>Ratings & Feedback</h4>
                 <p>Rate your driver after every trip. We act on every report — always.</p>
@@ -283,10 +334,10 @@
             <div class="sos-button">SOS</div>
             <p class="sos-label">Emergency Button</p>
             <div class="share-trip">
-              <span>📤</span> Share Trip
+              <i class="fa-solid fa-share-from-square"></i> Share Trip
             </div>
             <div class="driver-verified">
-              <span>✅</span> Driver Verified
+              <i class="fa-solid fa-circle-check"></i> Driver Verified
             </div>
           </div>
         </div>
@@ -322,7 +373,7 @@
             </a>
           </div>
           <div class="mobile-money-note">
-            <span>📱</span> Supports Mobile Money (MTN, Vodafone, AirtelTigo)
+            <i class="fa-solid fa-mobile-screen"></i> Supports Mobile Money (MTN, Vodafone, AirtelTigo)
           </div>
         </div>
         <div class="download-visual">
@@ -349,7 +400,9 @@
       </div>
       <div class="testimonials-grid">
         <div class="testimonial-card">
-          <div class="stars">★★★★★</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
           <p>"LOBI is a game changer! I get to work every day without stress. The drivers are always on time and professional."</p>
           <div class="testimonial-author">
             <div class="author-avatar">AK</div>
@@ -360,7 +413,9 @@
           </div>
         </div>
         <div class="testimonial-card featured-testimonial">
-          <div class="stars">★★★★★</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
           <p>"As a driver, LOBI has given me the freedom to earn on my own terms. The earnings are great and support is always available."</p>
           <div class="testimonial-author">
             <div class="author-avatar">KM</div>
@@ -371,7 +426,9 @@
           </div>
         </div>
         <div class="testimonial-card">
-          <div class="stars">★★★★★</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
           <p>"The airport transfer service saved me from missing my flight. Punctual, clean car, and the price was shown upfront!"</p>
           <div class="testimonial-author">
             <div class="author-avatar">ES</div>
@@ -466,8 +523,8 @@
           </div>
         </div>
         <div class="footer-cities">
-          <span>🇬🇭 Operating in:</span>
-          <span>Accra · Kumasi · Tamale · Takoradi · Cape Coast · Sunyani</span>
+          <i class="fa-solid fa-map-location-dot"></i>
+          <span>Operating in: Accra · Kumasi · Tamale · Takoradi · Cape Coast · Sunyani</span>
         </div>
       </div>
     </div>
