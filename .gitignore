@@ -1,0 +1,56 @@
+# ============================
+# OS & Editor
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================
+# Node / npm (if added later)
+# ============================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnp/
+.pnp.js
+package-lock.json
+yarn.lock
+
+# ============================
+# Build outputs (if bundler added)
+# ============================
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# ============================
+# Environment & secrets
+# ============================
+.env
+.env.local
+.env.*.local
+
+# ============================
+# Logs & temp files
+# ============================
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# ============================
+# Media / large assets (add originals manually)
+# ============================
+*.psd
+*.ai
+*.sketch
+*.fig
