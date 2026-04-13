@@ -403,7 +403,11 @@
         <span class="section-tag">What People Say</span>
         <h2>Loved Across Ghana</h2>
       </div>
-      <div class="testimonials-grid">
+    </div>
+
+    <!-- Full-width carousel -->
+    <div class="testimonials-carousel-wrap">
+      <div class="testimonials-track" id="testimonialsTrack">
         <div class="testimonial-card">
           <div class="stars">
             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
@@ -443,8 +447,50 @@
             </div>
           </div>
         </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"The price is always fair and upfront. I love that I can pay with Mobile Money — no cash worries!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AB</div>
+            <div>
+              <strong>Abena B.</strong>
+              <span>Kumasi, Ghana</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"LOBI's fleet manager called me within hours of signing up. My vehicles are now earning while I sleep!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">KA</div>
+            <div>
+              <strong>Kofi A.</strong>
+              <span>Fleet Owner, Tamale</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"The SOS button gave my family peace of mind. They can track my ride live every time I travel at night."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">YD</div>
+            <div>
+              <strong>Yaa D.</strong>
+              <span>Cape Coast, Ghana</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- Carousel dots -->
+    <div class="carousel-dots" id="carouselDots"></div>
   </section>
 
   <!-- ===== FOOTER ===== -->
@@ -534,6 +580,27 @@
       </div>
     </div>
   </footer>
+
+  <!-- ===== COOKIE CONSENT ===== -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <div class="cookie-content">
+      <i class="fa-solid fa-cookie-bite cookie-icon"></i>
+      <p>
+        We use cookies to improve your experience and analyse site traffic.
+        By continuing, you agree to our
+        <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a>.
+      </p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="cookie-btn cookie-reject" id="cookieReject">Reject</button>
+      <button type="button" class="cookie-btn cookie-accept" id="cookieAccept">Accept All</button>
+    </div>
+  </div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
 
   <script src="script.js"></script>
 </body>
