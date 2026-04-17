@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lobi-tz4x.onrender.com/sitemap.xml
