@@ -726,7 +726,11 @@ img { max-width: 100%; }
     gap: 32px;
   }
 
-  .fleet-img { height: 320px; }
+  .fleet-img {
+    height: auto;
+    width: 100%;
+    object-fit: unset;
+  }
 }
 
 /* ============================
@@ -1650,7 +1654,7 @@ img { max-width: 100%; }
 
   /* Fleet */
   .fleet-banner { gap: 32px; margin-top: 40px; }
-  .fleet-img    { height: 280px; }
+  .fleet-img    { height: auto; object-fit: unset; }
   .fleet-text   { text-align: center; align-items: center; }
 
   /* How it works */
@@ -1701,7 +1705,7 @@ img { max-width: 100%; }
   .app-badge  { width: 100%; max-width: 280px; justify-content: center; }
 
   /* Fleet */
-  .fleet-img { height: 240px; }
+  .fleet-img { height: auto; object-fit: unset; }
 
   /* Safety card */
   .safety-card-ui { padding: 28px 20px; }
@@ -1748,7 +1752,7 @@ img { max-width: 100%; }
   .service-icon { width: 44px; height: 44px; font-size: 1.1rem; }
 
   /* Fleet */
-  .fleet-img  { height: 200px; }
+  .fleet-img  { height: auto; object-fit: unset; }
   .fleet-list li { gap: 12px; }
   .fleet-list-icon { width: 36px; height: 36px; font-size: 1rem; }
 
